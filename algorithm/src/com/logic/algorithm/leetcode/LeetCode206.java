@@ -8,19 +8,19 @@ package com.logic.algorithm.leetcode;
  * @since 1.0
  */
 public class LeetCode206 {
-}
+    class Solution {
+        public ListNode reverseList(ListNode head) {
+            ListNode p = head;
+            head = null;
+            while (p != null) {
+                ListNode q = p;
+                p = p.next;
 
-class Solution {
-    public ListNode reverseList(ListNode head) {
-        ListNode p = head;
-        head = null;
-        while (p != null) {
-            ListNode q = p;
-            p = p.next;
-
-            q.next = head;
-            head = q;
+                q.next = head;
+                head = q;
+            }
+            return head;
         }
-        return head;
     }
 }
+
