@@ -6,4 +6,5 @@ package com.logic.algorithm.base;
  * @since 1.0
  */
 public class Edit {
+    private static final int a = 0;
 }
