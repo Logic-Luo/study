@@ -8,4 +8,6 @@ package com.logic.algorithm.base;
 public class Edit {
     private static final int a = 0;
     private static final int b = 0;
+    private static final int c = 0;
+
 }
