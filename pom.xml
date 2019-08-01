@@ -7,7 +7,10 @@
     <groupId>logic</groupId>
     <artifactId>com.logic</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <modules>
+        <module>java</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>com.logic Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -15,8 +18,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencyManagement>
@@ -30,7 +33,7 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>c
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
