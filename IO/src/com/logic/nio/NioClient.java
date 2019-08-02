@@ -63,13 +63,6 @@ public class NioClient {
                     handleInput(key);
                 } catch (Exception e) {
                     e.printStackTrace();
-                } finally {
-//                    if (key != null) {
-//                        key.cancel();
-//                        if (key.channel() != null) {
-//                            key.channel().close();
-//                        }
-//                    }
                 }
             }
         }
